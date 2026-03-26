@@ -29,7 +29,7 @@ div {
    Change the display property so they sit side by side. */
 
 .nav-link {
-    display: block;
+    display: inline-block;
 }
 
 
@@ -37,7 +37,7 @@ div {
    Change the display property so they sit side by side. */
 
 .card {
-    display: block;
+    display: block; 
 }
 
 
@@ -50,5 +50,25 @@ div {
 
 
 
+.b{
+    display: block;
+}
+
+.i{
+    display: inline;
+    width: 1000px;
+    height: 1000px;
+    background-color: pink;
+}
 
 
+img {
+    width: 100px;
+    height: 100px;
+    padding: 20px;
+    background-color: black;
+    margin: 50px;
+    border: 2px solid red;
+    display: inline-block;
+
+}
